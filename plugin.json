@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ryu.safe-actions",
+  "version": "0.1.14",
+  "description": "Review and govern typed tool plans before they can touch the world. Safe Actions shows the exact sequence, parallel branches, conditions, effects, and resources a verified agent proposed; explains every deterministic policy finding and counterexample; lets an authorized reviewer approve or deny plans that require judgment; and preserves hash-bound execution receipts without exposing raw secrets. It is the control surface for Core's generic fail-closed verified-plan gate: approval resumes the persisted plan, while the Companion itself never invokes a tool or executes an action.",
+  "author": {
+    "name": "Ryu",
+    "url": "https://ryuhq.com"
+  },
+  "homepage": "https://github.com/amajorai/ryu-safe-actions",
+  "repository": "https://github.com/amajorai/ryu-safe-actions",
+  "keywords": [
+    "security",
+    "verification",
+    "tool-plans",
+    "policy",
+    "approvals",
+    "receipts"
+  ],
+  "extensions": {
+    "com.ryuhq.ryu": {
+      "id": "@ryu/safe-actions",
+      "displayName": "Safe Actions"
+    }
+  }
+}
