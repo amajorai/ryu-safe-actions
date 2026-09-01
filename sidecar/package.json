@@ -1,0 +1,26 @@
+{
+  "name": "@ryu/safe-actions-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "The Ryu Safe Actions Companion: policy authoring, typed plan review, deterministic findings, and redacted execution receipts over Core's generic safe-actions bridge.",
+  "scripts": {
+    "build": "vite build",
+    "check-types": "tsc --noEmit",
+    "test": "bun test src"
+  },
+  "dependencies": {
+    "@fontsource-variable/geist": "^5.2.8",
+    "@fontsource-variable/geist-mono": "^5.2.8",
+    "@fontsource-variable/inter": "^5.2.8",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.4",
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5",
+    "vite": "^7.3.1"
+  }
+}
