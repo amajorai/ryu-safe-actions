@@ -1,0 +1,60 @@
+/* Ryu App UI v1 token contract: this standalone satellite maps its visual
+ * roles to the same semantic host tokens without depending on private workspace
+ * packages in the public static-companion mirror. */
+:root {
+	--font-sans: "Inter Variable", "Inter", sans-serif;
+	--font-heading: "Geist Variable", "Geist", sans-serif;
+	--font-mono: "Geist Mono Variable", "Geist Mono", monospace;
+	--font-code: var(--font-mono);
+	--sa-bg: var(--background, #080b0f);
+	--sa-panel: var(--card, #0e1218);
+	--sa-panel-raised: var(--muted, #141a22);
+	--sa-line: var(--border, #27303b);
+	--sa-line-strong: var(--muted-foreground, #6b7785);
+	--sa-text: var(--foreground, #edf1f5);
+	--sa-muted: var(--muted-foreground, #8c99a8);
+	--sa-faint: var(--muted-foreground, #a0acb8);
+	--sa-accent: var(--primary, #0099ff);
+	--sa-accent-ink: var(--primary-foreground, #06110f);
+	--sa-info: var(--info, #71a7ff);
+	--sa-warning: var(--warning, #f2bb55);
+	--sa-danger: var(--destructive, #ff6b6e);
+	--sa-success: var(--success, #68d391);
+	--sa-warning-text: var(
+		--status-warning,
+		color-mix(in oklab, var(--sa-warning) 65%, var(--sa-text))
+	);
+	--sa-success-text: var(
+		--status-success,
+		color-mix(in oklab, var(--sa-success) 70%, var(--sa-text))
+	);
+	--sa-danger-text: var(
+		--status-destructive,
+		color-mix(in oklab, var(--sa-danger) 85%, var(--sa-text))
+	);
+	--sa-info-text: var(
+		--status-info,
+		color-mix(in oklab, var(--sa-info) 85%, var(--sa-text))
+	);
+	--sa-radius: var(--radius, 7px);
+	--ryu-ui-scale: 1;
+	--ryu-page-bg-image: none;
+	--ryu-page-bg-repeat: repeat;
+	--ryu-page-bg-position: 0 0;
+	--ryu-page-bg-size: auto;
+	--ryu-page-bg-opacity: 1;
+	--ryu-page-bg-blur: 0px;
+	color-scheme: dark light;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body,
+#ryu-plugin-root {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
