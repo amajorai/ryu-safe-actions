@@ -1,0 +1,8 @@
+/*
+ * Safe Actions Companion styles. Vite inlines these imports before CSS-module
+ * scoping, so every class below stays in this one module's namespace; the import
+ * order is the cascade order. Use logical (inline-start/end) properties only.
+ */
+@import "./safe-actions.layout.module.css";
+@import "./safe-actions.responsive.module.css";
+@import "./safe-actions.markers.module.css";

@@ -1,0 +1,416 @@
+/* Preserve the published plan/status class markers alongside scoped roles. */
+.approved {
+	composes: approved from global;
+}
+.closed {
+	composes: closed from global;
+}
+.compact {
+	composes: compact from global;
+}
+.completed {
+	composes: completed from global;
+}
+.danger {
+	composes: danger from global;
+}
+.denied {
+	composes: denied from global;
+}
+.deny {
+	composes: deny from global;
+}
+.effect-communicate {
+	composes: effect-communicate from global;
+}
+.effect-delete {
+	composes: effect-delete from global;
+}
+.effect-execute {
+	composes: effect-execute from global;
+}
+.effect-network {
+	composes: effect-network from global;
+}
+.effect-read {
+	composes: effect-read from global;
+}
+.effect-spend {
+	composes: effect-spend from global;
+}
+.effect-write {
+	composes: effect-write from global;
+}
+.error {
+	composes: error from global;
+}
+.executing {
+	composes: executing from global;
+}
+.expired {
+	composes: expired from global;
+}
+.failed {
+	composes: failed from global;
+}
+.info {
+	composes: info from global;
+}
+.invalid {
+	composes: invalid from global;
+}
+.pending {
+	composes: pending from global;
+}
+.primary {
+	composes: primary from global;
+}
+.proof {
+	composes: proof from global;
+}
+.queued {
+	composes: queued from global;
+}
+.quiet {
+	composes: quiet from global;
+}
+.review {
+	composes: review from global;
+}
+.running {
+	composes: running from global;
+}
+.ryu-app-shell {
+	composes: ryu-app-shell from global;
+}
+.sa-app {
+	composes: sa-app from global;
+}
+.sa-argument-evidence {
+	composes: sa-argument-evidence from global;
+}
+.sa-banner {
+	composes: sa-banner from global;
+}
+.sa-branch-label {
+	composes: sa-branch-label from global;
+}
+.sa-brand {
+	composes: sa-brand from global;
+}
+.sa-brand-mark {
+	composes: sa-brand-mark from global;
+}
+.sa-button {
+	composes: sa-button from global;
+}
+.sa-call-detail {
+	composes: sa-call-detail from global;
+}
+.sa-catalog-note {
+	composes: sa-catalog-note from global;
+}
+.sa-check {
+	composes: sa-check from global;
+}
+.sa-check-grid {
+	composes: sa-check-grid from global;
+}
+.sa-closed-decision {
+	composes: sa-closed-decision from global;
+}
+.sa-consistency {
+	composes: sa-consistency from global;
+}
+.sa-contract-mode {
+	composes: sa-contract-mode from global;
+}
+.sa-contract-panel {
+	composes: sa-contract-panel from global;
+}
+.sa-core-state {
+	composes: sa-core-state from global;
+}
+.sa-counterexample {
+	composes: sa-counterexample from global;
+}
+.sa-crash-code {
+	composes: sa-crash-code from global;
+}
+.sa-crash-warning {
+	composes: sa-crash-warning from global;
+}
+.sa-delete-confirm {
+	composes: sa-delete-confirm from global;
+}
+.sa-detail-actions {
+	composes: sa-detail-actions from global;
+}
+.sa-detail-header {
+	composes: sa-detail-header from global;
+}
+.sa-editor-head {
+	composes: sa-editor-head from global;
+}
+.sa-empty-mark {
+	composes: sa-empty-mark from global;
+}
+.sa-expiry {
+	composes: sa-expiry from global;
+}
+.sa-field {
+	composes: sa-field from global;
+}
+.sa-fieldset {
+	composes: sa-fieldset from global;
+}
+.sa-finding {
+	composes: sa-finding from global;
+}
+.sa-finding-dot {
+	composes: sa-finding-dot from global;
+}
+.sa-finding-head {
+	composes: sa-finding-head from global;
+}
+.sa-finding-level {
+	composes: sa-finding-level from global;
+}
+.sa-finding-node {
+	composes: sa-finding-node from global;
+}
+.sa-findings-list {
+	composes: sa-findings-list from global;
+}
+.sa-form-actions {
+	composes: sa-form-actions from global;
+}
+.sa-form-grid {
+	composes: sa-form-grid from global;
+}
+.sa-form-requirement {
+	composes: sa-form-requirement from global;
+}
+.sa-form-section {
+	composes: sa-form-section from global;
+}
+.sa-form-validation {
+	composes: sa-form-validation from global;
+}
+.sa-full-hash {
+	composes: sa-full-hash from global;
+}
+.sa-hash-inline {
+	composes: sa-hash-inline from global;
+}
+.sa-hash-strip {
+	composes: sa-hash-strip from global;
+}
+.sa-inline-findings {
+	composes: sa-inline-findings from global;
+}
+.sa-list {
+	composes: sa-list from global;
+}
+.sa-list-meta {
+	composes: sa-list-meta from global;
+}
+.sa-list-overline {
+	composes: sa-list-overline from global;
+}
+.sa-list-row {
+	composes: sa-list-row from global;
+}
+.sa-list-summary {
+	composes: sa-list-summary from global;
+}
+.sa-list-title {
+	composes: sa-list-title from global;
+}
+.sa-live-dot {
+	composes: sa-live-dot from global;
+}
+.sa-loader {
+	composes: sa-loader from global;
+}
+.sa-muted {
+	composes: sa-muted from global;
+}
+.sa-plan-metrics {
+	composes: sa-plan-metrics from global;
+}
+.sa-plan-tree {
+	composes: sa-plan-tree from global;
+}
+.sa-policy-form {
+	composes: sa-policy-form from global;
+}
+.sa-proof-banner {
+	composes: sa-proof-banner from global;
+}
+.sa-proof-ledger {
+	composes: sa-proof-ledger from global;
+}
+.sa-queue-tally {
+	composes: sa-queue-tally from global;
+}
+.sa-rail {
+	composes: sa-rail from global;
+}
+.sa-rail-head {
+	composes: sa-rail-head from global;
+}
+.sa-receipt-section {
+	composes: sa-receipt-section from global;
+}
+.sa-receipt-workspace {
+	composes: sa-receipt-workspace from global;
+}
+.sa-resource-line {
+	composes: sa-resource-line from global;
+}
+.sa-resources {
+	composes: sa-resources from global;
+}
+.sa-review-actions {
+	composes: sa-review-actions from global;
+}
+.sa-review-bar {
+	composes: sa-review-bar from global;
+}
+.sa-review-disclaimer {
+	composes: sa-review-disclaimer from global;
+}
+.sa-review-note {
+	composes: sa-review-note from global;
+}
+.sa-review-section {
+	composes: sa-review-section from global;
+}
+.sa-review-section-head {
+	composes: sa-review-section-head from global;
+}
+.sa-review-workspace {
+	composes: sa-review-workspace from global;
+}
+.sa-search {
+	composes: sa-search from global;
+}
+.sa-section-title {
+	composes: sa-section-title from global;
+}
+.sa-skip-link {
+	composes: sa-skip-link from global;
+}
+.sa-sr-only {
+	composes: sa-sr-only from global;
+}
+.sa-state {
+	composes: sa-state from global;
+}
+.sa-status {
+	composes: sa-status from global;
+}
+.sa-step-error {
+	composes: sa-step-error from global;
+}
+.sa-step-hashes {
+	composes: sa-step-hashes from global;
+}
+.sa-step-number {
+	composes: sa-step-number from global;
+}
+.sa-surface {
+	composes: sa-surface from global;
+}
+.sa-surface-grid {
+	composes: sa-surface-grid from global;
+}
+.sa-switch-row {
+	composes: sa-switch-row from global;
+}
+.sa-timeline {
+	composes: sa-timeline from global;
+}
+.sa-timeline-body {
+	composes: sa-timeline-body from global;
+}
+.sa-timeline-head {
+	composes: sa-timeline-head from global;
+}
+.sa-timeline-marker {
+	composes: sa-timeline-marker from global;
+}
+.sa-timeline-meta {
+	composes: sa-timeline-meta from global;
+}
+.sa-timeline-step {
+	composes: sa-timeline-step from global;
+}
+.sa-token {
+	composes: sa-token from global;
+}
+.sa-token-row {
+	composes: sa-token-row from global;
+}
+.sa-tool-name {
+	composes: sa-tool-name from global;
+}
+.sa-topbar {
+	composes: sa-topbar from global;
+}
+.sa-tree-call {
+	composes: sa-tree-call from global;
+}
+.sa-tree-children {
+	composes: sa-tree-children from global;
+}
+.sa-tree-count {
+	composes: sa-tree-count from global;
+}
+.sa-tree-if {
+	composes: sa-tree-if from global;
+}
+.sa-tree-label {
+	composes: sa-tree-label from global;
+}
+.sa-tree-line {
+	composes: sa-tree-line from global;
+}
+.sa-tree-node {
+	composes: sa-tree-node from global;
+}
+.sa-tree-parallel {
+	composes: sa-tree-parallel from global;
+}
+.sa-tree-root {
+	composes: sa-tree-root from global;
+}
+.sa-tree-sequence {
+	composes: sa-tree-sequence from global;
+}
+.sa-workspace {
+	composes: sa-workspace from global;
+}
+.selected {
+	composes: selected from global;
+}
+.succeeded {
+	composes: succeeded from global;
+}
+.success {
+	composes: success from global;
+}
+.three {
+	composes: three from global;
+}
+.two {
+	composes: two from global;
+}
+.uncertain {
+	composes: uncertain from global;
+}
+
+.skipped {
+	composes: skipped from global;
+}
